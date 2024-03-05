@@ -20,6 +20,5 @@ public class Marks {
         System.out.println("Total marks: " + totalMarks);
         System.out.println("Percentage marks: " + percentageMarks + "%");
 
-        scanner.close();
     }
 }
