@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-
+import java.util.Scanner;
 public class DirectoryMain {
   ArrayList<DirectoryEntry> entries;
 
-  void Directory() {
+  void DirectoryMain() {
       entries = new ArrayList<>();
   }
 
@@ -53,7 +53,7 @@ public class DirectoryMain {
 
   public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
-      Directory directory = new Directory();
+      DirectoryMain directory = new DirectoryMain();
 
       while (true) {
           System.out.println("\nMenu:");
