@@ -16,9 +16,7 @@ public class PyramidPattern {
       for(int j=2;j<=i;j++) {
         System.out.print("*");
       }
-      for(int j=2;j<=rows-i;j++) {
-        System.out.print(" ");
-      }
+  
       System.out.println();
     }
     

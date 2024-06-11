@@ -1,5 +1,6 @@
-import java.util.Scanner;
 // The right triangle star pattern is also the same as the left triangle star pattern but it has a shape of a triangle with its perpendicular line at the right side.
+
+import java.util.Scanner;
 public class RightTriangle {
 
   public static void main(String[] args) {

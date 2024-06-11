@@ -11,6 +11,7 @@ public class WithoutDuplicates {public static void main(String[] args) {
         int columns = scanner.nextInt();
 
         int[][] noDuplicateArray = createArrayWithoutDuplicates(rows, columns, scanner);
+        System.out.println(noDuplicateArray.toString());
 
         System.out.println("2D Array with no duplicates numbers:");
         for(int i=0;i<rows;i++){

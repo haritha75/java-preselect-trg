@@ -17,9 +17,7 @@ public class ReversePyramid {
       for(int j=2;j<=rows-i+1;j++) {
         System.out.print("*");
       }
-      for(int j=2;j<=i-1;j++) {
-        System.out.print(" ");
-      }
+  
       System.out.println();
     }
   }
